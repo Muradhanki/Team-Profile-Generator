@@ -120,3 +120,16 @@ function promptIntern() {
           message: "Enter the intern's school:",
         },
       ])
+      .then((answers) => {
+        // Create an Intern object and add it to the teamMembers array
+        const intern = new Intern(
+          answers.name,
+          answers.id,
+          answers.email,
+          answers.school
+        );
+        teamMembers.push(intern);
+        // Move to the next step in the menu
+        promptMenu();
+      });
+  }
