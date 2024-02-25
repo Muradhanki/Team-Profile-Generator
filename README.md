@@ -48,8 +48,8 @@ npm run test
 ```
 
 ## Screenshots
-![Team Generator User Input Screenshot](./assets/images/team-generator-user-input.png)
+![Team Generator User Input Screenshot](https://github.com/Muradhanki/Team-Profile-Generator/blob/main/assets/images/nodeindexjs.jpg)
 *The screenshot illustrate the command-line interaction with the Team Profile Generator application.*  
 
-![Team HTML Generator Screenshot](./assets/images/team-generator-html.png)
+![Team HTML Generator Screenshot](https://github.com/Muradhanki/Team-Profile-Generator/blob/main/assets/images/screen%20grab.jpg)
 *This screenshot showcases the HTML output of the application, enhanced with added styling for a visually appealing presentation.*
