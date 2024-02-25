@@ -95,3 +95,28 @@ function promptEngineer() {
       });
   }
   
+  // Function to prompt for intern details
+function promptIntern() {
+    inquirer
+      .prompt([
+        {
+          type: "input",
+          name: "name",
+          message: "Enter the intern's name:",
+        },
+        {
+          type: "input",
+          name: "id",
+          message: "Enter the intern's employee ID:",
+        },
+        {
+          type: "input",
+          name: "email",
+          message: "Enter the intern's email address:",
+        },
+        {
+          type: "input",
+          name: "school",
+          message: "Enter the intern's school:",
+        },
+      ])
