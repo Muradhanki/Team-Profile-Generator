@@ -172,3 +172,5 @@ function generateHTML() {
      fs.writeFileSync(outputPath, html);
      console.log(`Team HTML generated at ${outputPath}`);
    }
+   // Start the process by prompting for manager details
+  promptManager();
