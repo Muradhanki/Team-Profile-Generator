@@ -1,5 +1,19 @@
 {
   "dependencies": {
-    "inquirer": "^9.2.15"
-  }
+    "inquirer": "^6.3.1",
+    "jest": "^29.7.0"
+  },
+  "name": "team-profile-generator",
+  "description": "Test-Driven Development: Team Profile Generator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
