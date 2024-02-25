@@ -42,3 +42,15 @@ function promptManager() {
         },
       ])
       .then((answers) => {
+         // Create a Manager object and add it to the teamMembers array
+      const manager = new Manager(
+        answers.name,
+        answers.id,
+        answers.email,
+        answers.officeNumber
+      );
+      teamMembers.push(manager);
+        // Move to the next step in the menu
+        promptMenu();
+    });
+}
