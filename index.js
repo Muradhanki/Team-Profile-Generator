@@ -133,3 +133,31 @@ function promptIntern() {
         promptMenu();
       });
   }
+
+  // Function to prompt user with menu options
+function promptMenu() {
+    inquirer
+      .prompt([
+        {
+          type: "list",
+          name: "menu",
+          message: "What would you like to do?",
+          choices: ["Add an engineer", "Add an intern", "Finish building the team"],
+        },
+      ])
+      .then((answers) => {
+        // Based on the user's choice, call the appropriate function
+        switch (answers.menu) {
+          case "Add an engineer":
+            promptEngineer();
+            break;
+          case "Add an intern":
+            promptIntern();
+            break;
+          case "Finish building the team":
+            // Generate the HTML and finish the process
+            generateHTML();
+            break;
+        }
+      });
+  }
