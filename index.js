@@ -168,3 +168,7 @@ function generateHTML() {
     if (!fs.existsSync(OUTPUT_DIR)) {
       fs.mkdirSync(OUTPUT_DIR);
     }
+     // Write the HTML to the specified output file
+     fs.writeFileSync(outputPath, html);
+     console.log(`Team HTML generated at ${outputPath}`);
+   }
