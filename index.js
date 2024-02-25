@@ -161,3 +161,10 @@ function promptMenu() {
         }
       });
   }
+  // Function to generate HTML using the render function and write it to a file
+function generateHTML() {
+    const html = render(teamMembers);
+    // Check if the output directory exists, create it if not
+    if (!fs.existsSync(OUTPUT_DIR)) {
+      fs.mkdirSync(OUTPUT_DIR);
+    }
