@@ -81,3 +81,17 @@ function promptEngineer() {
           message: "Enter the engineer's GitHub username:",
         },
       ])
+      .then((answers) => {
+        // Create an Engineer object and add it to the teamMembers array
+        const engineer = new Engineer(
+          answers.name,
+          answers.id,
+          answers.email,
+          answers.github
+        );
+        teamMembers.push(engineer);
+        // Move to the next step in the menu
+        promptMenu();
+      });
+  }
+  
