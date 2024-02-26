@@ -1,6 +1,8 @@
 # Team-Profile-Generator
 Test-Driven Development: Team Profile Generator
 
+## Description
+  Javascript code that generates Team Profile
 
 ## Table of Contents
 - [User Story](#user-story)
@@ -22,8 +24,12 @@ Test-Driven Development: Team Profile Generator
 **I WANT** a tool to generate a team profile,  
 **SO THAT** I can easily organize and view information about my team members.
 
+Hi everyone! This is Muradhan. I am a construction project manager of 10 years whom always had an interest overt the IT industry. Finally decided to make the switch, and started the EdX's Front end development boot camp to switch his field of work. 
+
+In this assignment, my task is to create a command-line application that dynamically generates a that generates Team Profile from a user's input using the Inquirer packageLinks to an external site.. 
+
 ## Installation
-Users can install the project by cloning the repository from GitHub and follow these steps to install the required dependencies:
+To install the necessary dependencies, users can clone the repository from GitHub and install the project by following these steps:
 
 1. Initialize the project:
 ```bash
