@@ -59,3 +59,21 @@ npm run test
 
 ![Team HTML Generator Screenshot](https://github.com/Muradhanki/Team-Profile-Generator/blob/main/assets/images/screen%20grab.jpg)
 *This screenshot showcases the HTML output of the application, enhanced with added styling for a visually appealing presentation.*
+
+## Usage
+
+To use the Team Profile Generator, run the command `node index.js` in the terminal. Follow the prompts to provide information about your team, and the generator will create the `team.html` file based on your input.
+
+1. Run the application:
+```bash
+node index.js
+```
+If you need you can:
+1. Stop the application:
+```bash
+^C
+```
+2. Clear the terminal:
+```bash
+clear
+```
