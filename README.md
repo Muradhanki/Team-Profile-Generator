@@ -78,6 +78,8 @@ If you need you can:
 clear
 ```
 
+Generated sample HTML file can be found in the "output" directory.
+
 ## Built With
 
 Languages that has been used to code:
